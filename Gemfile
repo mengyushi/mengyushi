@@ -38,4 +38,5 @@ gem 'puma'
 # gem 'debugger', group: [:development, :test]
 
 gem 'slim'
+gem 'devise'
 
