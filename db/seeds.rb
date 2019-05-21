@@ -6,10 +6,5 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Widget.create(id:1,name:"sample1",description:"nothing here", stock:0)
-Widget.create(id:2,name:"sample2",description:"nothing here", stock:1)
-Widget.create(id:3,name:"sample3",description:"nothing here", stock:0)
-
-
 # Achira (Canna, Arrowroot) | Scientific Names: Canna edulis | Family: Cannaceae
 Flower.create(id:1,name:"Achira",scientific_name:"Canna edulis",toxic:false)
