@@ -16,13 +16,15 @@ ActiveRecord::Schema.define(version: 20190521003734) do
   enable_extension "plpgsql"
 
   create_table "flowers", force: :cascade do |t|
-    t.string :scientific_name
-    t.string :en
-    t.string :zh
-    t.string :ja
-    t.boolean :toxic
-    t.string :wiki_url
-    t.binary :picture
+    t.string "scientific_name"
+    t.string "en"
+    t.string "zh"
+    t.string "ja"
+    t.boolean "toxic"
+    t.string "wiki_url"
+    t.binary "picture"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "widgets", force: :cascade do |t|
