@@ -7,4 +7,4 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 # Achira (Canna, Arrowroot) | Scientific Names: Canna edulis | Family: Cannaceae
-Flower.create(id:1,en:"Achira",scientific_name:"Canna edulis",toxic:false)
+Flower.create(id:1,en:"Achira",toxic:false)
