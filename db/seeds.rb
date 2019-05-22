@@ -826,7 +826,7 @@ Flower.create(en:"Mexican Breadfruit",scientific_name:"Monstera deliciosa",toxic
 Flower.create(en:"Milfoil",scientific_name:"Achillea millefolium",toxic:true)
 Flower.create(en:"Milkweed",scientific_name:"Asclepias species",toxic:true)
 Flower.create(en:"Mint",scientific_name:"Mentha sp.",toxic:true)
-Flower.create(en:"Mistletoe "American"",scientific_name:"Phoradendron flavescens",toxic:true)
+Flower.create(en:"Mistletoe American",scientific_name:"Phoradendron flavescens",toxic:true)
 Flower.create(en:"Mock Azalea",scientific_name:"Adenium obesum",toxic:true)
 Flower.create(en:"Mole Bean Plant",scientific_name:"Ricinus communis",toxic:true)
 Flower.create(en:"Morning Glory",scientific_name:"Ipomoea spp",toxic:true)
