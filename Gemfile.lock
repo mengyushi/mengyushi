@@ -84,9 +84,6 @@ GEM
       faraday (~> 0.13)
       google-cloud-core (~> 1.2)
       googleauth (>= 0.6.2, < 0.10.0)
-    google_fish (0.2.2)
-      addressable
-      json
     googleauth (0.8.1)
       faraday (~> 0.12)
       jwt (>= 1.4, < 3.0)
@@ -225,7 +222,6 @@ DEPENDENCIES
   devise
   google-api-client
   google-cloud-translate
-  google_fish
   jbuilder
   jquery-rails
   pg (~> 0.18)

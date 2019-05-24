@@ -1,7 +1,7 @@
 require "google/cloud/translate"
 
-ENV["TRANSLATE_PROJECT"]     = "data-engineering-coursera"
-ENV["TRANSLATE_CREDENTIALS"] = "google-account.json"
+ENV["TRANSLATE_PROJECT"]     = "cat-flower-remix"
+ENV["TRANSLATE_CREDENTIALS"] = "credentials.json"
 
 translate = Google::Cloud::Translate.new
 
