@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "data-engineering-coursera",
+  "private_key_id": "56d5fb7da2fbdd855cf15ffb477d5ce2de3ed8ef",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCJqBfycdq1TpyG\nYPgTFHYDuAZt5z1NfAFlRP4koucaiiGj9Y4XRfGGqy8b++tFmGsTdBiASuIhbs/w\npLH/+IKsLpjYIO5YU6IQYDW05OA1ii/VrzMHBJPwZ46Xs/KxHxLFA+ZfqDER5yYA\nzcIODFrY0UmWboK5gU6/HwUzsdE1gLHMhC5LJrqBmNCcbd9C9NuqXY9MEh2yxNyw\n0Mm0NnCdAnqlhHItr1mTPVNNbSk4kR/mn4oea4/HDwRGAoAcYiH1gdoYrRnr3V59\n7AAzN9rLp4BuHUCea9xUiSdYQeg0hGqU6sDpbdfRuLsK5EOQ52XeAF+XyS3dr+Wn\ngHT9ZCmvAgMBAAECggEAEeYIAb90DzxYIHuIm1J/FcoJFqPegK4DBcaMFPoUJTXu\nByztJhwzZK3qw4S5+U6cKDy22CzkbNxvr9Ek+Sy4MOh4zywDpvsY3hrkYM+cUi8p\nkRXlWKBBFsfK7pwN46HasECVj70wGYJ979TRH+p+ACXA9Q0MH6VZ4S0zYUlZnnnF\n0qqgpyT4SWHaYRwDMAOR/4hl26b6sr2KbuUVbxfwUScrFxMWeypn3FVdw0IlRFix\n6r204Lzk5Am7/pnJLZA3Y6WoHJgaD96uSOuyUkp5HdwhjlV+9ZYimWTt8sT/mz0d\niWuLpy4tyu2SN0UVUfBGOnLPwSN0b34NTTJiZJtXwQKBgQC9gblg6XIu1uJh03yj\nshWby8AuWpDGWU9ofSERJTbPFFaOyaC/CNDPX2xM0z5lw187I7ikihTjFT9QipL5\nVFBHG8R3N5yjp549zVs1E9nKb6k75OzrEuFxhtgHOoAzHiC8xiQnws20bBdN8XST\n/o0rpYgsJ0M4AbQ84UBTJxyziQKBgQC59PpenNwZJ76IAvO/T3UUb3dxkLQ45SDH\nlgoJv1hp3OKryBOFNjojS6c5P/vLy3UUhoIgY4lqxh8DO+IDndk6B0rfWL8HHHLG\nky9RsTBMHQb6PMoxFNInCtT+4OcWspZd8Hh/CEm1IPP86pdna2jsTzC23akVIocS\nTivLvwjNdwKBgFNXd8WNJTBARLMtJUWAjkxEITLBlaYFpQyY6y/1I9OSaDbHqbAa\nGmr41lI7HNf4QitqHEwQhfsQXxX2u4h3cg6zwYWEqZi3oLohVBlVr5R94vl6Rk9j\nsE4TNXKIYdUZTOB4a3IpE/pjByS6KcDkVAV7+RUh90fsR+32SinHq7GxAoGBALWS\nt0Xa9C672BcGiuqqsy+ZB5AkM1W6pR89KeAKrlHwFISXgDf6kxoTrN0B1ONRbqj0\nDeuCRZO0kGOf/Th60LkQldMv3Jcc+BVdcj7aPMaVMVL2OJdkNS9aLFATWpGXH6vq\nOj4P4aiy3IqApgWdo33adT6ZgZfZdvowyiLQDdBRAoGAKbVbcQGKKEvmkh9VNaLU\nnn7xuHF10YmYrYmWYAeWsG8XZ7HbSCUrEaxqtSyKluKiw4B3xhvlMXKK7hgRB9D8\nqUrnLy6jgiIE1D3g3KlicHA8UQABcBiWsqQw3p59dgapJrgHc73G9qtF6KW22sHO\ngEQm6BuJhQuuFhotsKAxjpo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "cat-flower-remix@data-engineering-coursera.iam.gserviceaccount.com",
+  "client_id": "109618498542656163466",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cat-flower-remix%40data-engineering-coursera.iam.gserviceaccount.com"
+}

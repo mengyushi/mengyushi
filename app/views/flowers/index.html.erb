@@ -1,0 +1,29 @@
+<div class="container">
+<h1>Listing flowers</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name EN</th>
+      <th>Toxic</th>
+      <th colspan="2"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @flowers.each do |flower| %>
+      <tr>
+        <td><%= flower.en %></td>
+        <td><%= flower.toxic %></td>
+        <td><%= link_to 'Show', flower %></td>
+        <td><%= link_to 'Edit', edit_flower_path(flower) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New flower', new_flower_path %>
+
+</div>

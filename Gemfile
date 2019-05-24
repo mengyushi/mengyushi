@@ -38,5 +38,12 @@ gem 'puma'
 # gem 'debugger', group: [:development, :test]
 
 gem 'slim'
+
 gem 'devise'
+
+gem 'google-cloud-translate'
+
+gem 'google-api-client'
+
+gem 'ridgepole'
 
