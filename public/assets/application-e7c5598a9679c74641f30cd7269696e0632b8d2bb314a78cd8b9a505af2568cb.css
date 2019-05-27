@@ -1,0 +1,148 @@
+/* line 4, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/theme.css.scss */
+.jumbotron {
+  background: #532F8C;
+  color: white;
+  padding-bottom: 80px;
+}
+/* line 9, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/theme.css.scss */
+.jumbotron .btn-primary {
+  background: #845ac7;
+  border-color: #845ac7;
+}
+/* line 12, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/theme.css.scss */
+.jumbotron .btn-primary:hover {
+  background: #7646c1;
+}
+/* line 17, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/theme.css.scss */
+.jumbotron p {
+  color: #d9ccee;
+  max-width: 75%;
+  margin: 1em auto 2em;
+}
+/* line 23, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/theme.css.scss */
+.navbar + .jumbotron {
+  margin-top: -20px;
+}
+/* line 27, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/theme.css.scss */
+.jumbotron .lang-logo {
+  display: block;
+  background: #B01302;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border: 2px solid white;
+}
+/* line 36, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/theme.css.scss */
+.jumbotron .lang-logo img {
+  max-width: 100%;
+}
+/* line 5, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+p {
+  font-size: 16px;
+}
+
+/* line 6, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.margin {
+  margin-bottom: 45px;
+}
+
+/* line 8, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.bg-1 {
+  background-color: #ffffff;
+  /* White */
+  color: #2f2f2f;
+}
+
+/* line 12, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.bg-2 {
+  background-color: #474e5d;
+  /* Dark Blue */
+  color: #ffffff;
+}
+
+/* line 16, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.bg-3 {
+  background-color: #e5e6eb;
+  /* Gray */
+  color: #555555;
+}
+
+/* line 20, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.bg-4 {
+  background-color: #2f2f2f;
+  /* Black Gray */
+  color: #fff;
+}
+
+/* line 24, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.contents {
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* line 29, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.title {
+  height: 400px;
+  background-color: #ffffff;
+  padding: 0;
+}
+/* line 34, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.title .background-image {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-image: url(/assets/title-background-458e50fb0874ca097170cc2e03f6975b6c55660821c987b0a9f65fa01997e9f4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+/* line 46, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.title h4 {
+  position: absolute;
+  left: 200px;
+  top: 250px;
+  font-size: 28px;
+}
+
+/* line 54, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* line 58, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.left {
+  height: 310px;
+}
+
+/* line 61, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.right {
+  height: 100px;
+}
+
+/* line 65, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.icon-image img {
+  border-radius: 50%;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
