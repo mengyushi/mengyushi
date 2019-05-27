@@ -11,15 +11,18 @@ class FlowersController < ApplicationController
   # GET /widgets
   # GET /widgets.json
   def index
-    @flowers = Flower.all
+
+    @flowers = Flower.all.search(params[:search])
+
+    @toxic = @flowers.where(toxic: "true")
+    @non_toxic = @flowers.where(toxic: "false")
+
   end
 
   # GET /widgets/1
   # GET /widgets/1.json
   def show
-    p params
     @flower = Flower.find(params[:id])
-
   end
 
   def update

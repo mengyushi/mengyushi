@@ -1,0 +1,35 @@
+doctype html
+
+html
+
+  head
+
+  	title Cat Flower Remix
+
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' 
+    = javascript_include_tag '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'
+    = csrf_meta_tags
+
+	body
+
+	nav.navbar.navbar-default.navbar-static-top.navbar-inverse
+	  .container
+	    ul.nav.navbar-nav
+	      li.active
+	        a href="/" 
+	          span.glyphicon.glyphicon-home
+	          | Home
+	      li
+	        a href="/flowers" 
+	          span.glyphicon.glyphicon-grain
+	          | Flowers
+	          
+	    ul.nav.navbar-nav.navbar-right
+	      li.navbar-right
+	        a href="https://devcenter.heroku.com" 
+	          span.glyphicon.glyphicon-book
+	          | Heroku Dev Center
+
+
+	= yield
