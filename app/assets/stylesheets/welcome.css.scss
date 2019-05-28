@@ -123,7 +123,26 @@ color: $white;
 			color:white;
 			text-align: center;
 		}
+
+		h3.discription{
+			display: none;
+		}
 	}
+	.application:hover{
+		background-color: $dark-gray;
+		p.large-icon{
+			display: none;
+		}
+		h3.discription{
+			display: inline-block;
+		  	color:$white;
+		  	margin-top: 20px;
+		  	margin-bottom: 20px;
+		  	font-size: 18px;
+		  	letter-spacing: 2px;	
+		  	font-weight: normal;	
+		}		
+	}	
 }
 .right{
 	height: 100px;

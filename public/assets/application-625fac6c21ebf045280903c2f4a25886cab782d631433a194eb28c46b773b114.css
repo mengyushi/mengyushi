@@ -1,0 +1,310 @@
+/* line 4, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/theme.css.scss */
+.jumbotron {
+  background: #532F8C;
+  color: white;
+  padding-bottom: 80px;
+}
+/* line 9, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/theme.css.scss */
+.jumbotron .btn-primary {
+  background: #845ac7;
+  border-color: #845ac7;
+}
+/* line 12, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/theme.css.scss */
+.jumbotron .btn-primary:hover {
+  background: #7646c1;
+}
+/* line 17, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/theme.css.scss */
+.jumbotron p {
+  color: #d9ccee;
+  max-width: 75%;
+  margin: 1em auto 2em;
+}
+/* line 23, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/theme.css.scss */
+.navbar + .jumbotron {
+  margin-top: -20px;
+}
+/* line 27, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/theme.css.scss */
+.jumbotron .lang-logo {
+  display: block;
+  background: #B01302;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border: 2px solid white;
+}
+/* line 36, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/theme.css.scss */
+.jumbotron .lang-logo img {
+  max-width: 100%;
+}
+/* line 16, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+p {
+  font-size: 16px;
+}
+
+/* line 17, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.margin {
+  margin-bottom: 20px;
+}
+
+/* line 18, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.glyphicon {
+  margin: 5px;
+}
+
+/* line 21, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.bg-1 {
+  background-color: #ffffff;
+  /* White */
+  color: #2f2f2f;
+}
+
+/* line 25, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.bg-2 {
+  background-color: #474e5d;
+  /* Dark Blue */
+  color: #ffffff;
+}
+
+/* line 29, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.bg-3 {
+  background-color: #e5e6eb;
+  /* Gray */
+  color: #555555;
+}
+
+/* line 33, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.bg-4 {
+  background-color: #2f2f2f;
+  /* Black Gray */
+  color: #ffffff;
+}
+
+/* line 37, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.contents {
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* line 42, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.title {
+  height: 400px;
+  background-color: #ffffff;
+  margin-top: 50px;
+  padding: 0;
+}
+/* line 47, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.title .background-image {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-image: url(/assets/title-background-458e50fb0874ca097170cc2e03f6975b6c55660821c987b0a9f65fa01997e9f4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+/* line 59, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.title h4 {
+  position: absolute;
+  left: 250px;
+  top: 300px;
+  font-size: 28px;
+}
+/* line 66, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.title .my-name {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 90px;
+  top: 240px;
+  border-radius: 3px;
+  border-width: 10px;
+  border-color: white;
+  border-style: solid;
+  background-color: #DFDFDF;
+}
+/* line 77, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.title .my-name p {
+  font-size: 90px;
+  margin: auto;
+  color: white;
+}
+/* line 83, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.title .email {
+  position: absolute;
+  left: 220px;
+  top: 330px;
+  width: 300px;
+  text-align: left;
+}
+/* line 89, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.title .email p {
+  color: #999999;
+  font-size: 18px;
+}
+/* line 94, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.title .telephone {
+  position: absolute;
+  left: 220px;
+  top: 360px;
+  width: 300px;
+  text-align: left;
+}
+/* line 100, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.title .telephone p {
+  color: #999999;
+  font-size: 18px;
+}
+
+/* line 106, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* line 110, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.left {
+  height: 520px;
+  padding-top: 20px;
+}
+/* line 113, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.left .application {
+  height: 240px;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 5px;
+  border-color: white;
+  background-color: #DFDFDF;
+}
+/* line 121, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.left .application p.large-icon {
+  font-size: 90px;
+  color: white;
+  text-align: center;
+}
+/* line 127, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.left .application h3.discription {
+  display: none;
+}
+/* line 131, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.left .application:hover {
+  background-color: #2f2f2f;
+}
+/* line 133, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.left .application:hover p.large-icon {
+  display: none;
+}
+/* line 136, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.left .application:hover h3.discription {
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+/* line 147, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.right {
+  height: 100px;
+}
+
+/* line 150, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.icon-image {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+/* line 156, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.icon-image img {
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+/* line 161, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.social-details {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  margin-left: 5%;
+}
+/* line 166, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.social-details p.social-title {
+  color: #2f2f2f;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+}
+/* line 173, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.social-details p.social-content {
+  color: #2f2f2f;
+  font-size: 10px;
+}
+/* line 177, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.social-details a.Github {
+  border-radius: 3px;
+  background-color: #00cc00;
+  padding: 5px;
+  color: white;
+  font-size: 10px;
+}
+/* line 184, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.social-details a.Linkedin {
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #004d99;
+  border-style: solid;
+  padding: 5px;
+  color: #004d99;
+  font-size: 10px;
+}
+/* line 193, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.social-details a.Leetcode {
+  border-radius: 30px;
+  background-color: orange;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 10px;
+  font-weight: bold;
+}
+/* line 204, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.social-details a.Coursera {
+  border-radius: 5px;
+  background-color: #3399ff;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+}
+/* line 212, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/welcome.css.scss */
+.social-details a.Zhihu {
+  font-size: 10px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
