@@ -3,8 +3,10 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 p {font-size: 16px;}
-.margin {margin-bottom: 45px;}
-
+.margin {margin-bottom: 20px;}
+.glyphicon{
+	margin: 5px;
+}
 .bg-1 { 
 background-color: #ffffff; /* White */
 color: #2f2f2f;
@@ -96,6 +98,21 @@ color: #fff;
 }
 .left{
 	height: 520px;
+	padding-top: 20px;
+	.application{
+		height: 240px;
+		border-style: solid;
+		border-radius: 3px;
+	  	border-width: 5px;
+	  	border-color: white;
+		background-color: #e5e6eb;
+
+		p.large-icon{
+			font-size: 90px;
+			color:white;
+			text-align: center;
+		}
+	}
 }
 .right{
 	height: 100px;
@@ -104,7 +121,10 @@ color: #fff;
 	display: inline-block;
 	vertical-align: middle;
 	height: 100%;
+	margin-left: 5%;
+	margin-top: 10px;
 	img{
+		vertical-align: middle;
 		border-radius: 50%;
 	}
 }
@@ -116,9 +136,9 @@ color: #fff;
 	p.social-title{
 		color: #2f2f2f;
 		font-size: 20px;
-		margin-top: 10px;
+		margin-top: 0px;
 		margin-left: 0px;
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 	}
 	p.social-content{
 		color: #2f2f2f;
@@ -144,8 +164,11 @@ color: #fff;
 		border-radius: 30px;
 		background-color: orange;
 		color: white;
-		padding: 5px;
-		font-size: 8px;		
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 10px;		
 		font-weight: bold;
 	}
 	a.Coursera{
@@ -153,7 +176,7 @@ color: #fff;
 		background-color: #3399ff;
 		color: white;
 		padding: 5px;
-		font-size: 8px;		
+		font-size: 10px;		
 		font-weight: bold;
 	}	
 	a.Zhihu{
