@@ -2,26 +2,37 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$red: #cc2310;
+$green: #20b5b4;
+$yellow: #e3b505;
+$navy: #182a3d;
+$link_color: #508ccc;
+
+$white :#ffffff;
+$gray :#999999;
+$gray2 :#DFDFDF;
+$dark-gray :#2f2f2f;
+
 p {font-size: 16px;}
 .margin {margin-bottom: 20px;}
 .glyphicon{
 	margin: 5px;
 }
 .bg-1 { 
-background-color: #ffffff; /* White */
-color: #2f2f2f;
+background-color: $white; /* White */
+color: $dark-gray;
 }
 .bg-2 { 
 background-color: #474e5d; /* Dark Blue */
-color: #ffffff;
+color: $white;
 }
 .bg-3 { 
 background-color: #e5e6eb; /* Gray */
 color: #555555;
 }
 .bg-4 { 
-background-color: #2f2f2f; /* Black Gray */
-color: #fff;
+background-color: $dark-gray; /* Black Gray */
+color: $white;
 }
 .contents{
 	border-radius: 3px;
@@ -30,8 +41,8 @@ color: #fff;
 }
 .title{
 	height:400px;
-	background-color: #ffffff;
-
+	background-color: $white;
+	margin-top: 50px;
 	padding: 0;
 	.background-image{
 		border-top-left-radius: 3px;
@@ -48,7 +59,7 @@ color: #fff;
 	h4{
 	  position: absolute;
 	  left: 250px;
-	  top: 250px;
+	  top: 300px;
 	  font-size: 28px;
 	}
 
@@ -57,12 +68,12 @@ color: #fff;
 	  width: 150px;
 	  position: absolute;
 	  left: 90px;
-	  top: 190px;
+	  top: 240px;
   	  border-radius: 3px;
 	  border-width: 10px;
 	  border-color: white;
 	  border-style: solid;
-	  background-color: #DFDFDF;
+	  background-color: $gray2;
 	  p{
 	  	font-size: 90px;
 	  	margin: auto;
@@ -72,22 +83,22 @@ color: #fff;
 	.email{
 	  position: absolute;
 	  left: 220px;
-	  top: 280px;
+	  top: 330px;
 	  width: 300px;
 	  text-align: left;
 	  p{
-	  	color:#999999;
+	  	color:$gray;
 	  	font-size: 18px;
 	  }
 	}
 	.telephone{
 	  position: absolute;
 	  left: 220px;
-	  top: 310px;	
+	  top: 360px;	
 	  width: 300px;	
 	  text-align: left;
 	  p{
-	  	color:#999999;
+	  	color:$gray;
 	  	font-size: 18px;
 	  }
 	}
@@ -105,7 +116,7 @@ color: #fff;
 		border-radius: 3px;
 	  	border-width: 5px;
 	  	border-color: white;
-		background-color: #DFDFDF;
+		background-color: $gray2;
 
 		p.large-icon{
 			font-size: 90px;
@@ -134,14 +145,14 @@ color: #fff;
 	text-align: left;
 	margin-left: 5%;
 	p.social-title{
-		color: #2f2f2f;
+		color: $dark-gray;
 		font-size: 20px;
 		margin-top: 0px;
 		margin-left: 0px;
 		margin-bottom: 5px;
 	}
 	p.social-content{
-		color: #2f2f2f;
+		color: $dark-gray;
 		font-size: 10px;
 	}
 	a.Github{
