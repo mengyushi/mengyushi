@@ -1,17 +1,15 @@
-.container
+.container.title
+  h1 Search Flower By Name
 
-  h2 Search By Name
-  
+  p Check out if before bring fresh cut flowers into your house. 
+  p They add a lovely welcoming touch to any home. But houses with cats should be aware that those lovely flowers can potentially be toxic.
+
   = form_tag(flowers_path, :method => 'get' ) do
     = text_field_tag :search
 
-    = button_tag :submit do 
-      span.glyphicon.glyphicon-home search
+    = button_tag :submit , class: 'btn-bg' do 
+      span.glyphicon.glyphicon-search search
 
-
-
-
-.container
   .row
     .col-md-6
       h3 Listing Non-Toxic Flowers

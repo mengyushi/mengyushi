@@ -1,0 +1,23 @@
+/* line 13, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/flowers.css.scss */
+.title .btn-bg {
+  margin: 5px;
+  border-radius: 3px;
+  background-color: #DFDFDF;
+}
+/* line 17, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/flowers.css.scss */
+.title .btn-bg .span {
+  margin: 3px;
+}
+/* line 21, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/flowers.css.scss */
+.title h1 {
+  color: #2f2f2f;
+}
+/* line 24, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/flowers.css.scss */
+.title p {
+  color: #999999;
+}
+
+/* line 28, /Users/mengyushi/Documents/GitHub/cat-flower-remix/app/assets/stylesheets/flowers.css.scss */
+.details {
+  margin-top: 70px;
+}

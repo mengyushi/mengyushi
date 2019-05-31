@@ -1,0 +1,30 @@
+$red: #cc2310;
+$green: #20b5b4;
+$yellow: #e3b505;
+$navy: #182a3d;
+$link_color: #508ccc;
+
+$white :#ffffff;
+$gray :#999999;
+$gray2 :#DFDFDF;
+$dark-gray :#2f2f2f;
+
+.title{
+	.btn-bg{
+		margin: 5px;
+		border-radius: 3px;
+		background-color: $gray2;
+		.span{
+			margin: 3px;
+		}
+	}
+	h1 {
+		color:$dark-gray;
+	}
+	p {
+		color:$gray;
+	}
+}
+.details{
+	margin-top: 70px;
+}
