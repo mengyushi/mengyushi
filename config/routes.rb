@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :widgets
   resources :flowers
+  resources :pixel_image
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -10,6 +11,9 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   get '/search' => 'flowers#search'
+
+  get '/pixel' => 'pixel_image#index'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
