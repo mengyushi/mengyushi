@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get '/search' => 'flowers#search'
 
   get '/pixel' => 'pixel_image#index'
+  
+  get '/resume' => 'resume#index'
 
 
   # Example of regular route:
