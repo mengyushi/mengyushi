@@ -26,7 +26,6 @@
     }
 
     div {
-      height: 100%;
     }
 
     article {
@@ -76,7 +75,7 @@
     
     .icon {
       display: inline-block;
-      height: 10px;
+      height: 15px;
       margin-right: 5px;
     }
     
@@ -85,7 +84,7 @@
       top: 0px;
       width: 110px;
       height: 110px;
-      background-image: url("link.png");
+      background-image: url(<%= asset_path 'link.png' %>);
       background-size: cover;
     }
     
@@ -116,7 +115,6 @@
       top:130px;
       left: 0%;
       width: 62%;
-      height:875px;
     }
 
     .right-half {
@@ -125,13 +123,11 @@
       right: 0%;
       width: 38%;
       border-left: 1px solid #bfbfbf;
-      height:875px;
     }
     
   </style>
   </head>
   <body>
-
     <section class="header">
       <div class="title_img">
       </div>
@@ -140,10 +136,10 @@
         <p>Curriculum Vitae</p>
       </div>   
       <div class="title_links">
-        <p><img class="icon" src="linkedin-square.png"><a href="https://www.linkedin.com/in/yushimeng/">https://www.linkedin.com/in/yushimeng/</a></p>  
-        <p><img class="icon" src="github-square.png"><a href="https://github.com/mengyushi">https://github.com/mengyushi</a></p>
-        <p><img class="icon" src="email.png"><a href="mailto: yushim2@uci.edu">yushim2@uci.edu</a></p>
-        <p style="font-size: 10px;"><img class="icon" src="phone.png">08045730610</p>
+        <p><%= image_tag 'linkedin-square.png', :class => "icon" %><a href="https://www.linkedin.com/in/yushimeng/">https://www.linkedin.com/in/yushimeng/</a></p>  
+        <p><%= image_tag 'github-square.png', :class => "icon" %><a href="https://github.com/mengyushi">https://github.com/mengyushi</a></p>
+        <p><%= image_tag 'email.png', :class => "icon" %><a href="mailto: yushim2@uci.edu">yushim2@uci.edu</a></p>
+        <p style="font-size: 10px;"><%= image_tag 'phone.png', :class => "icon" %>08045730610</p>
       </div>
     </section>
     
@@ -276,9 +272,9 @@ Environmental Engineering
               <b>Neural Style Transfer</b>
               <br> Base on Django.
               <br> Deployed on Heroku: 
-              <br><a href="https://room-ies.herokuapp.com/">https://room-ies.herokuapp.com/</a>
+              <!-- <br><a href="https://room-ies.herokuapp.com/">https://room-ies.herokuapp.com/</a> -->
               <br> Open Source on Github:
-              <br><a href="https://github.com/mengyushi/roommates">https://github.com/mengyushi/roommates/</a>            
+              <!-- <br><a href="https://github.com/mengyushi/roommates">https://github.com/mengyushi/roommates/</a>             -->
             </li>
             <li>
               <b>More on Personal Blog</b>
