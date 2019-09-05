@@ -102,9 +102,13 @@
       position: absolute;
       height: 70px;
       left: 100px;
-      top: 20px;
+      top: 10px;
       text-align: left;
     }
+    
+    .address {
+      line-height: 70%;
+    }    
     
     .title_links {
       position: absolute;
@@ -144,8 +148,10 @@
       </div>
       <div class="title_text">
         <h1>YUSHI MENG</h1>
-        <p>Irvine, CA, 92614</p>
-        <p>+1 949-501-3688</p>
+        <div class="address">
+          <p>+1 949-501-3688</p>
+          <p>Irvine, CA, 92614</p>
+        </div>
       </div>   
       <div class="title_links">
         <p><%= image_tag 'linkedin-square.png', :class => "icon" %><a href="https://www.linkedin.com/in/yushimeng/">https://www.linkedin.com/in/yushimeng/</a></p>  
